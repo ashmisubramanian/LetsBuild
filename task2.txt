@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ASH CREATIONS</title>
+<link="stylesheet" type="text/css" href=""css/style.css>
+<style>
+*{
+    margin:0;
+    padding:0;
+}
+.music{
+    background-image=url(bac.jpg);
+    height:600px;
+    background-size:cover;
+}
+.title{
+    color:black;
+    position:center;
+    font-size:70px;
+    top:50%;
+    right:50%;
+    padding:0%;
+}
+.music ul{
+    list-style:none;
+}
+.music ul li{
+    background-color:black;
+    width:170px;
+    border:2px solid white;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    float:left;
+    color:white;
+    font-size:20px;
+    transition: 0.8s case;
+}
+.music ul li:hover{
+    background-color:yellow;
+}
+body{
+    background-color:white;
+}
+p{
+    color:blue;
+    display:none;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="music">
+<div class="logo">
+<img src="bac.jpg">
+</div>
+<ul>
+<li class="active"><a herf="#">HOME</a></li>
+<li><a herf="#">ABOUT</a></li>
+<li><a herf="#">ENTERTAINMENT</a></li>
+<li><a herf="#">CONTACT</a></li>
+</ul>
+</div>
+<div class="title">
+<h1 position="center">MUSIC MOJO</h1>
+</div>
+</header>
+</body>
+</html>
